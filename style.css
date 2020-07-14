@@ -1,0 +1,42 @@
+body {
+    background: darkgray;
+    padding: 2em 0px 0px 0px;
+    margin: 0px;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+}
+#mainCol {
+    border-style: solid;
+    border-width: 1em;
+    border-color: black;
+    border-radius: 1em;
+    background: black;
+    color: white;
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    padding-top: 0px;
+    min-height: 100%;
+    align-content: center;
+}
+
+img {
+    padding: 0px;
+    border-radius: 1em;
+}
+fieldset {
+    align-content: center;
+    text-align: center;
+    border: 0px;
+    margin-bottom: 0px;
+}
+form {
+    margin: auto;
+    align-content: center;
+    margin: 1em 1em 1em 1em;
+    margin-bottom: 0px;
+}
+
+#query {
+    width: 50%;
+}

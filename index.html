@@ -2,30 +2,25 @@
 
 <head>
 	<meta charset="utf-8">
-	<!-- <script>
-	function setSearchEngine() {
-		console.log("I'm RUNNING!");
-	}
-    window.addEventListener("load", function(){
-        // TODO: register the handler
-    });
-	</script> -->
+	<title>Ask Reeves</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 	<script src="script.js"></script>
 </head>
 
 <body>
-	<form id="searchForm"  method="" action="" id="">
-		<!-- TODO: add form elements -->
-		
-				<input type="text" name="q" id="query"/>
-				<label>Google<input type="radio" name="engine" value="google"/></label>
-   				<label>DuckDuckGo<input type="radio" name="engine" value="ddg"/></label>
-				<label>Bing<input type="radio" name="engine" value="bing"/></label>
-				<label>Ask<input type="radio" name="engine" value="ask"/></label>
-   				<input type="submit" value="Go!" id="submit">
-			
-		
-	</form>
-	
-
+	<div id="mainCol">
+		<img src="res/keanu.jpg">
+		<form id="searchForm"  method="" action="" id="">
+			<fieldset>
+				<input type="text" name="q" id="query" required/>
+				<input type="submit" value="Go!" id="submit">&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
+				<label>Google <input type="radio" name="engine" value="google" required/></label>&nbsp;&nbsp;&nbsp;
+				<label>DuckDuckGo <input type="radio" name="engine" value="ddg" required checked/></label>&nbsp;&nbsp;&nbsp;
+				<label>Bing <input type="radio" name="engine" value="bing" required/></label>&nbsp;&nbsp;&nbsp;
+				<label>Ask <input type="radio" name="engine" value="ask" required/></label>	
+			</fieldset>		
+		</form>
+	</div>
 </body>
